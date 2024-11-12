@@ -1,0 +1,110 @@
+#container{
+    width: 810px;
+    height: 1350px;
+    border: 4px solid color(black);
+    background-color:bisque;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+}
+
+.flex-colunm{
+    border: 1px solid black;
+    display: inline-block;
+    height: 100px;
+    width: 805px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#personal-information{
+    display: inline-block;
+    height: 420px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 4px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#Education{
+    display: inline-block;
+    height: 280px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#skills{
+    display: inline-block;
+    height: 360px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.flex-row{
+    flex-direction: row;
+    width: 400px;
+    margin-left: 407px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 77px;
+    font-size: larger;
+}
+
+h1{
+    font-family: 'Trebuchet MS',;
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    padding: 10pt;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Trebuchet MS';
+    font-size:larger;
+    background-color: black;
+    font-style: italic;
+    color: white;
+    padding: 10pt;
+}
+
+blockquote{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    font-display: bold;
+    padding-top: 4px;
+    text-align-last: left;
+}
+
+button{
+    margin-left: 420px;
+    width: 380px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 8px;
+    background-color: gray;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    box-shadow: 0 0 15px maroon;
+}
+
+button:hover {
+    background-color:cyan;
+}
+
+p{
+    margin-left: 420px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+
